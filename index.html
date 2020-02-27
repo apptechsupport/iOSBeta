@@ -3,14 +3,86 @@
 
     <head>
         <meta charset="utf-8">
-        <title>测试下载</title>
+        <title>易周转APP下载</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <style>
+            body {
+
+                background-color: rgb(248, 248, 231);
+
+                text-align: center
+            }
+
+            div {
+
+                width: 100%;
+
+                margin: 20px auto;
+
+            }
+
+            h1 {
+
+                color: rgb(38, 60, 97);
+
+            }
+            a{
+                margin-top: 20px;
+                padding: 5px 8px;
+                width: 46px;
+                height: 30px;
+                margin-top: 50px;
+                font-size: 30px;
+                text-decoration: none;
+                border-style:solid;
+                border-color: gold;
+                border-radius: 25px;
+                color: gold;
+
+            }
+            .btm{
+                /* width: 400px;
+                margin: 50px auto;
+                text-align: left */
+            }
+            .step1{
+                width: 200px;
+                height: 93px;
+            }
+            .step2{
+                width: 200px;
+                height: 68px;
+            }
+            .info{
+                font-size: 16px;
+                color: red;
+            }
+        </style>
     </head>
 
     <body>
-        <a id="clickMe"
-            href="itms-services:///?action=download-manifest&url=https://apptechsupport.github.io/iOSBeta/ios/app/manifest.plist">点我下载iOS版本</a>
+        <div>
+
+            <img src="./ios/icons/57.png" alt="">
+    
+            <h1>易周转APP（iOS版）</h1>
+
+            <a id="clickMe"
+            href="itms-services:///?action=download-manifest&url=https://m.jubox.tech/ios/app/manifest.plist">立即下载</a>
+            <div class="btm">
+                <p>安装步骤：</p>
+                <p>1.点击“点击下载”按钮，点击弹窗的“安装”按钮；</p>
+                <p><img class="step1" src="step1.png" alt=""></p>
+                <p>2.回到桌面，等待下载即可。</p>
+                <p><img class="step2"src="step2.png" alt=""></p>
+                <p class="info">说明：因带宽限制，下载较慢，请耐心等待</p>
+            </div>
+            
+    
+        </div>
+
         
+
     </body>
 
     </html>
